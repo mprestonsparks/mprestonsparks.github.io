@@ -1,3 +1,163 @@
-body {
-    align-content: center;
+html {
+    background-image: url("https://vastphotos.com/files/uploads/photos/10166/manhattanhenge-fine-art-photo-l.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-attachment: fixed;
+}
+
+#navParent {
+    background-color: rgba(0, 0, 0, .8);
+    border-bottom: 3px solid #cccccc;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+
+.navChild {
+    height: 50px;
+    /* position: relative; */
+    background-color: rgba(0, 0, 0, 0);
+    width: 960px;
+    margin: 2% 0 0 10%;
+    margin: 0 auto;
+    height: 50px;
+    line-height: 50px;
+}
+
+#name {
+    float: left;
+    padding: 0 0 0 3%;
+    margin: 0 0 .5% 0;
+    width: 60%;
+    height: 50px;
+    line-height: 50px;
+    /* background-color: rgba(255, 207, 64, 1); */
+    background-color: rgba(0, 0, 0, 0);
+    opacity: 80%;
+    color: #E9D863;
+    font-size: 30px;
+    overflow: hidden;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navBarLinks {
+    float: right;
+    width: 10%;
+    text-align: center;
+    margin: 0 0 .5% 0;
+    /* vertical-align: middle; */
+    /* height: 50px;
+    line-height: 50px; */
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 110%;
+    color: khaki;
+}
+
+a:link, a:visited, a:hover, a:active {
+    color: khaki;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 110%;
+    text-decoration: none;
+  }
+
+#centerLink {
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-color: grey;
+}
+
+li {
+    list-style: none;
+}
+
+.contentSection {
+    background-color: rgba(0, 0, 0, 0.75);
+    /* opacity: 100%; */
+    position: relative;
+    min-height: 100%;
+    max-width: 900px;
+    width: 100%;
+    padding: 0 30px 20px 30px;
+    margin: 5% auto;
+    margin-bottom: 5%;
+    border: 1.5px solid darkgrey;
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+h1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #f6f6f6;
+    text-shadow: -1px -1px 0 #000000;
+    font-size: 200%;
+}
+
+hr {
+    border: none;
+    color: khaki;
+    background-color: khaki;
+    height: 3px;
+    margin-bottom: 30px;
+    box-shadow: 5px 5px 5px #000000;
+}
+
+#placeholderImage {
+    float: left;
+    margin: 0 20px 0 0;
+    box-shadow: 5px 5px 5px #000000;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, .8);
+    margin-top: 5%;
+    height: 40px;
+    line-height: 45px;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    text-align: center;
+    border-top: 5px solid khaki;
+    color: #dddddd;
+}
+
+/* ---------- PORTFOLIO PAGE ----------- */
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 5px;
+}
+
+.column {
+    flex: 25%;
+    max-width: 100%;
+    padding: 1% 5% 5% 5%;
+}
+
+.column img {
+    /* margin: 8px 4px 4px 8px; */
+    margin-top: 10%;
+    vertical-align: middle;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+#portfolioSection img {
+    border: 10px solid #e5e5e5;
 }
