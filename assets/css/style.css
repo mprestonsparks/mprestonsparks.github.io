@@ -180,7 +180,7 @@ footer {
     border: 10px solid #e5e5e5;
 }
 
-.portfolioImage h2 {
+#deployed-link {
     position: absolute;  
     left: calc(50% + 10px);
     top: 75%;
@@ -189,6 +189,19 @@ footer {
     background-color: rgba(0,0,0,0.6);
     min-width: 100%;
     color: #E9D863;
+    font-family: 'Major Mono Display', 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+#github-link {
+    position: absolute;  
+    left: calc(50% + 10px);
+    top: 25%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: rgba(0,0,0,0.6);
+    min-width: 100%;
+    color: #f6f6f6;
     font-family: 'Major Mono Display', 'Times New Roman', Times, serif;
     font-weight: bold;
 }
