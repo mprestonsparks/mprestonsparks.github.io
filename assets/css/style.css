@@ -105,6 +105,17 @@ h1 {
     font-weight: bold;
 }
 
+#contactinfo {
+    float: right;
+    display:inline-block;
+}
+
+#contactinfo2 {
+    float: right;
+    display:inline-block;
+}
+
+
 hr {
     border: none;
     color: khaki;
