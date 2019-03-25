@@ -176,6 +176,11 @@ footer {
     align-content: center;
 }
 
+#col3img1 {
+    position: relative;
+    align-content: center;
+}
+
 #portfolioSection img {
     border: 10px solid #e5e5e5;
 }
